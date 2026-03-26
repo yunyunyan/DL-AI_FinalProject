@@ -1,0 +1,38 @@
+{
+  "overall_accuracy": 0.9667,
+  "per_class_accuracy": {
+    "Amenity Booking": {
+      "correct": 8,
+      "total": 10,
+      "accuracy": 0.8
+    },
+    "Complaint / Dispute": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "Dues & Payment": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "General Inquiry": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "Maintenance Request": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "Rule Violation Report": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    }
+  },
+  "n_samples": 60,
+  "n_errors": 0,
+  "errors": []
+}

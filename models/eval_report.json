@@ -1,0 +1,113 @@
+{
+  "overall_accuracy": 0.9801,
+  "classification_report": {
+    "Amenity Booking": {
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.9285714285714286,
+      "support": 45.0
+    },
+    "Complaint / Dispute": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 21.0
+    },
+    "Dues & Payment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 66.0
+    },
+    "General Inquiry": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 30.0
+    },
+    "Maintenance Request": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 85.0
+    },
+    "Rule Violation Report": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 54.0
+    },
+    "accuracy": 0.9800664451827242,
+    "macro avg": {
+      "precision": 0.9722222222222223,
+      "recall": 0.9777777777777779,
+      "f1-score": 0.972943722943723,
+      "support": 301.0
+    },
+    "weighted avg": {
+      "precision": 0.9833887043189369,
+      "recall": 0.9800664451827242,
+      "f1-score": 0.9802606031841913,
+      "support": 301.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      39,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      21,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      66,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      30,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      85,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      54
+    ]
+  ],
+  "categories": [
+    "Amenity Booking",
+    "Complaint / Dispute",
+    "Dues & Payment",
+    "General Inquiry",
+    "Maintenance Request",
+    "Rule Violation Report"
+  ],
+  "n_test_samples": 301
+}
