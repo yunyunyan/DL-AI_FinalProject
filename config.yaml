@@ -1,0 +1,42 @@
+# HOA Task Auto — Configuration
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Anthropic API
+api:
+  model: "claude-sonnet-4-6"          # Model used for classification
+  max_tokens: 1024
+  temperature: 0.0                     # Deterministic output for classification
+
+# Dataset
+data:
+  raw_path: "data/hoa_requests.csv"
+  train_path: "data/train.csv"
+  val_path: "data/val.csv"
+  test_path: "data/test.csv"
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  random_seed: 42
+
+# Task categories (6 classes)
+categories:
+  - "Maintenance Request"
+  - "Dues & Payment"
+  - "Rule Violation Report"
+  - "Amenity Booking"
+  - "General Inquiry"
+  - "Complaint / Dispute"
+
+# Few-shot examples per category (used in prompt)
+few_shot:
+  examples_per_category: 2
+
+# Evaluation
+eval:
+  target_accuracy: 0.99
+  report_path: "models/eval_report.json"
+
+# Demo
+demo:
+  port: 7860
+  share: false
